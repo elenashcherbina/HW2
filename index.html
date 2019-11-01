@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Second</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="wrapper">
+     <table class = "user-table">
+      <tr>
+        <th>Name</th>
+        <th>Surname</th>
+        <th>Phone</th>
+        <th>Email</th>
+      </tr> 
+      <tr>
+         <td>Иван</td>
+         <td>Иванов</td>
+         <td>123-45-67</td>
+         <td>ivan.ivanov@email.com</td>
+       </tr>
+       <tr>
+         <td>Иван</td>
+         <td>Иванов</td>
+         <td>123-45-67</td>
+         <td>ivan.ivanov@email.com</td>
+       </tr>
+       <tr>
+         <td>Иван</td>
+         <td>Иванов</td>
+         <td>123-45-67</td>
+         <td>ivan.ivanov@email.com</td>
+       </tr>
+       <tr>
+         <td>Иван</td>
+         <td>Иванов</td>
+         <td>123-45-67</td>
+         <td>ivan.ivanov@email.com</td>
+       </tr>
+     </table>
+     <form class="user-form" action="#">
+       <input class="user-name" type="text" name="username" placeholder="Enter your name" autofocus>
+       <input class="user-surname" type="text" name="usersurname" placeholder="Enter your surname">
+       <label class="user-sex">
+         What is your sex?
+         <label class="user-sex-male">
+            <input type="radio" name="radio-group" checked> M
+         </label>
+         <label class="user-sex-female">
+            <input type="radio" name="radio-group"> F
+         </label>
+       </label>
+       <textarea name="messege" rows="10" placeholder="Enter something"></textarea>
+       <select class="user-city" name="city">
+         <option value="default" selected disabled>Choose your city</option>
+         <option value="Kyiv">Kyiv</option>
+         <option value="Lviv">Lviv</option>
+         <option value="Poltava">Poltava</option>
+         <option value="Odesa">Odesa</option>
+       </select>
+       <div class="user-language">
+         <h5 class="user-language-label">Choose your language</h5>
+         <label>
+           <input type="checkbox" name="checkbox-ukr">
+           Ukranian
+        </label>
+         <label>
+           <input type="checkbox" name="checkbox-en">
+           English
+        </label>
+         <label>
+           <input type="checkbox" name="checkbox-rus">
+           Russion
+        </label>
+       </div>
+       <button>Submit</button>
+     </form>
+    </div>
+  </body>
+</html>

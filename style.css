@@ -1,0 +1,61 @@
+.wrapper {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  min-height: 100vh;
+  padding: 40px 20px;
+  width: 960px;
+  margin: 0 auto;
+  background-color: #e6e6e6;
+}
+
+.user-table {
+  margin-bottom: 25px;
+  background-color: #fff;
+  border-collapse: collapse;
+}
+
+td, 
+th {
+  padding: 4px 12px;
+  border: 1px solid #424242;
+}
+
+.user-sex,
+textarea,
+button {
+  display: block;
+  margin-bottom: 20px;
+}
+input[type="text"],
+textarea {
+  padding: 8px;
+}
+
+input[type="text"] {
+  display: block;
+  margin-bottom: 20px;
+  width: 25%;
+}
+
+textarea {
+  width: 40%;
+  resize: none;
+}
+.user-city {
+  width: 160px;
+  font-size: 16px;;
+
+}
+.user-language-label,
+label {
+  display:block;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 25px;
+  width: 120px;
+  height: 35px;
+  border-radius: 8px;
+  font-size: 16px;
+}
